@@ -1,0 +1,21 @@
+/*
+ * GlobalSettings.h
+ *
+ *  Created on: 26 Dec 2020
+ *      Author: cdromke
+ */
+
+#ifndef MAIN_GLOBALSETTINGS_H_
+#define MAIN_GLOBALSETTINGS_H_
+
+#define NO_LOCAL_ADC_CHANNELS 5U
+#define NO_REMOTE_ADC_CHANNELS 0U
+
+#define NO_CHANNELS (NO_LOCAL_ADC_CHANNELS + NO_REMOTE_ADC_CHANNELS)
+
+#define SLEEP_TIME 30U
+#define OPERATION_TIMEOUT 60000U
+
+#define MEASUREMENTSTABILIZE_TIME 15000U
+
+#endif /* MAIN_GLOBALSETTINGS_H_ */

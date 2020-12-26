@@ -1,0 +1,2 @@
+idf_component_register(SRCS "hello_world_main.c" "PlantMonitorAnalogMeasurement.c" "PlantMonitorManager.c" "PlantMonitorSettings.c" "PlantMonitorWifiManager.c" "TimeMgmt.c" "PlantMonitorMQTTManager.c"
+                    INCLUDE_DIRS "")
